@@ -1,3 +1,6 @@
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +18,12 @@ body {
 
 li {
     list-style: none;
+    line-height: 2.1em;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
+
 
 a {
     text-decoration: none;
@@ -26,6 +34,11 @@ h1 {
     letter-spacing: 0.2em;
 }
 
+p {
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
+
 .container {
     display: flex;
 }
@@ -33,13 +46,15 @@ h1 {
 
 .left {
     display: flex;
-    width: 40%;
+    width: 42%;
 }
 
 .name {
-    padding-left: 140px;
-    padding-top: 100px;
+    padding-left: 130px;
+    padding-top: 50px;
     position: fixed;
+    text-shadow: #D7D2CA 2.5px 3px;
+    text-shadow: #D7D2CA 3px 3.5px;
 
 }
 
@@ -54,7 +69,9 @@ h1 {
 
 
 .inner {
-    padding-top: 100px;
+    padding-top: 80px;
+    padding-left: 10px;
+    width: 80%;
 }
 
 .profile {
@@ -65,6 +82,11 @@ h1 {
 
 .born {
     margin-left: 100px;
+}
+
+p.born {
+    text-shadow: #D7D2CA 2.5px 3px;
+    text-shadow: #D7D2CA 3px 3.5px;
 }
 
 .menu {
@@ -87,13 +109,114 @@ h1 {
     border-bottom: solid 2.5px #9AD3F3;
 }
 
+p.kasen {
+    margin-top: -20px;
+    font-weight: bolder
+}
+
 .section {
     display: flex;
     flex-direction: column;
     background-color: #F4F2F2;
-    border-radius: 10px;
-    gap: 30px;
-    padding: 30px;
+    border-radius: 15px;
+    gap: 5px;
+    padding: 40px;
     align-items: flex-start;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+}
+
+.section p {
+    line-height: 2.1em;
+    padding-top: 5px;
+}
+
+
+.greenball-mini {
+    margin-left: 75px;
+    margin-top: -40px;
+}
+
+.whiteball {
+    margin-left: 10px;
+    margin-top: -40px;
+}
+
+.animal {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+
+.moru {
+    margin-left: 260px;
+    margin-top: 55px;
+    box-shadow: 7px 10px 8px #D7D2CA;
+}
+
+.otter {
+    margin-left: 60px;
+    margin-top: -50px;
+    box-shadow: -7px 10px 8px #D7D2CA;
+}
+
+.cat {
+    margin-left: 310px;
+    margin-top: -150px;
+    margin-bottom: 80px;
+    box-shadow: 7px 10px 8px #D7D2CA;
+}
+
+.food {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.curry {
+    margin-left: 95px;
+    margin-top: -80px;
+    margin-bottom: 80px;
+    box-shadow: -7px 10px 8px #D7D2CA;
+}
+
+.beer {
+    margin-left: 270px;
+    margin-top:80px;
+    box-shadow: 7px 10px 8px #D7D2CA;
+}
+
+.culture {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.book {
+    margin-left: 270px;
+    margin-top: 80px;
+    box-shadow: 7px 10px 8px #D7D2CA;
+}
+
+.live {
+    margin-left: 40px;
+    margin-top: -50px;
+    margin-bottom: 80px;
+    box-shadow: -7px 10px 8px #D7D2CA;
+}
+
+.view {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.biwako {
+    margin-left: 180px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    box-shadow: -7px 10px 8px #D7D2CA;
+
+}
+
+.azuki {
+    margin-left: 250px;
+    margin-top: -50px;
+    box-shadow: 7px 10px 8px #D7D2CA;
 }
