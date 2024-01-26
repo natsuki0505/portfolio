@@ -1,145 +1,153 @@
 
-    * {
-        margin: 0;
-        padding: 0;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-    img {
-        max-width: 100%;
-        margin-left: 20px;
-    }
+img {
+    max-width: 100%;
+    margin-left: 20px;
+}
 
-    body {
-        padding: 20px;
-        font-family: 'Noto Sans JP', sans-serif;
-        background-color: #F9F9F9;
-    }
+body {
+    padding: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: #F9F9F9;
+}
 
-    li {
-        list-style: none;
-        line-height: 2.1em;
-        font-size: 14px;
-        margin-left: 10px;
-        margin-bottom: 10px;
-    }
-
-
-    a {
-        text-decoration: none;
-        color: #000;
-    }
-
-    h1 {
-        letter-spacing: 0.2em;
-    }
-
-    p {
-        letter-spacing: 0.1em;
-        font-size: 16px;
-    }
-
-    .container {
-        display: flex;
-    }
+li {
+    list-style: none;
+    line-height: 2.1em;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
 
 
-    .left {
-        display: flex;
-        width: 42%;
-    }
+a {
+    text-decoration: none;
+    color: #000;
+}
 
-    .name {
-        padding-left: 160px;
-        padding-top: 50px;
-        position: fixed;
-    }
+h1 {
+    letter-spacing: 0.2em;
+}
 
-    .right {
-        width: 60%;
+p {
+    letter-spacing: 0.1em;
+    font-size: 16px;
+}
 
-    }
-
-    .huri {
-        letter-spacing: 0.6em;
-    }
+.container {
+    display: flex;
+}
 
 
-    .inner {
-        padding-top: 80px;
-        padding-left: 10px;
-        width: 80%;
-    }
+.left {
+    display: flex;
+    width: 42%;
+}
 
-    .profile {
-        display: flex;
-        align-items: center;
-        margin-bottom: 140px;
-    }
+.name {
+    padding-left: 160px;
+    padding-top: 50px;
+    position: fixed;
+}
 
-    .born {
-        margin-top: 120px;
-        margin-left: 20px;
-    }
+.right {
+    width: 60%;
 
-    .text:hover{
-        color: #5ee0ec;
-    }
+}
 
-    .menu {
-        position: fixed;
-        bottom: 20px;
-    }
+.huri {
+    letter-spacing: 0.6em;
+}
 
 
-    .greenball {
-        position: absolute;
-        margin-left: 260px;
-        margin-top: 140px;
-        z-index: -1;
-    }
+.inner {
+    padding-top: 80px;
+    padding-left: 10px;
+    width: 80%;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 140px;
+}
+
+.born {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.text:hover{
+    color: #5ee0ec;
+}
+
+.menu {
+    position: fixed;
+    bottom: 20px;
+}
 
 
-    .kasen {
-        display: inline-block;
-        padding: 4px 12px;
-        border-bottom: solid 2.5px #9AD3F3;
-    }
+.greenball {
+    position: absolute;
+    margin-left: 260px;
+    margin-top: 140px;
+    z-index: -1;
+}
 
-    p.kasen {
-        margin-top: -20px;
-        font-weight: bolder
-    }
 
-    .section {
-        margin-left: 30px;
-        display: flex;
-        flex-direction: column;
-        background-color: #F4F2F2;
-        border-radius: 20px;
-        padding: 30px;
-        align-items: flex-start;
-        margin-bottom: 100px;
-    }
+.kasen {
+    display: inline-block;
+    padding: 4px 12px;
+    border-bottom: solid 2.5px #9AD3F3;
+}
 
-    .section p {
-        line-height: 2em;
-        padding-top: 7px;
-    }
+p.kasen {
+    margin-top: -20px;
+    font-weight: bolder
+}
 
-    .note {
-        margin-top: 30px;
-        margin-bottom: -190px;
-        width: 650px;
-        height: 650px;
-    }
+.section {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F2F2;
+    border-radius: 20px;
+    padding: 30px;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
 
-    .cafe-fofa {
-        margin-top: -60px;
-        margin-bottom: 50px;
-    }
+.section p {
+    line-height: 2em;
+    padding-top: 7px;
+}
 
-    .sunaneko {
-        width: 350px;
-        width: 350px;
-        margin-top: 40px;
-    }
+.note {
+    margin-top: 30px;
+    margin-bottom: -190px;
+    width: 650px;
+    height: 650px;
+}
+
+.cafe-fofa {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.sunaneko {
+    width: 350px;
+    width: 350px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+
+
+
+
+}
