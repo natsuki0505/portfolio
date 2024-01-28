@@ -1,4 +1,5 @@
 
+@media screen and (max-width:1024px) {
     * {
         margin: 0;
         padding: 0;
@@ -131,13 +132,14 @@
 
     .note {
         margin-top: 30px;
-        margin-bottom: -190px;
+        margin-bottom: -150px;
         width: 650px;
         height: 650px;
     }
 
     .cafe-fofa {
-        margin-top: -60px;
+        margin-top: 90px;
+        margin-left: -15px;
         margin-bottom: 50px;
     }
 
@@ -145,12 +147,15 @@
         width: 350px;
         width: 350px;
         margin-top: 40px;
+        margin-left: -20px;
     }
+}
 
     @media screen and (max-width:480px) {
         article.section {
-            width: 400px;
-            margin-left: 170px;
+            width: 410px;
+            margin-left: 190px;
+            padding: 40px;
         }
 
         .name {
@@ -180,8 +185,8 @@
 
         .cafe-fofa {
             width: 280px;
-            margin-top: -160px;
-            margin-left: -195px;
+            margin-top: 80px;
+            margin-left: -210px;
         }
 
         .cafe-fofa p {
@@ -190,7 +195,7 @@
         }
 
         .sunaneko {
-            margin-left: -200px;
+            margin-left: -220px;
         }
 
         p.born {
