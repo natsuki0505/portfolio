@@ -1,5 +1,4 @@
 
-@media screen and (max-width:1440px) {
     * {
         margin: 0;
         padding: 0;
@@ -149,7 +148,7 @@
         margin-top: 40px;
         margin-left: -20px;
     }
-}
+
 
     @media screen and (max-width:480px) {
         article.section {
